@@ -11,15 +11,15 @@
 
 ## Description
 
-A [Countdown]() app is a sequence of backward counting to indicate the time remaining before an event is scheduled to occur. Built from scratch with HTML, CSS and JavaScript and learnt more about functions in Js. Responsive for mobile screens also.
+A [Countdown](https://countdown-fsjs.netlify.app/) app is a sequence of backward counting to indicate the time remaining before an event is scheduled to occur. Built from scratch with HTML, CSS and JavaScript and learnt more about functions in Js. Responsive for mobile screens also.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://countdown-fsjs.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/bBLmOH3l_rk)
 
 <hr>
 
