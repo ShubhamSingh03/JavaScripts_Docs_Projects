@@ -2,6 +2,7 @@ let startBtn = document.getElementById("start");
 let stopBtn = document.getElementById("stop");
 let resetBtn = document.getElementById("reset");
 let timerDisplay = document.getElementById("input");
+const imgGif = document.getElementById("gif");
 let interval = null;
 let [milliseconds, seconds, minute, hour] = [0, 0, 0, 0];
 
@@ -9,6 +10,7 @@ startBtn.addEventListener('click', startFunc);
 stopBtn.addEventListener('click', stopFunc);
 resetBtn.addEventListener('click', resetFunc);
 
+// update timer function
 function updateTimer(){
     milliseconds += 10;
     if(milliseconds === 100){
@@ -50,17 +52,30 @@ function updateTimer(){
     milliseconds = Number(milliseconds);
 } 
 
+// start function on click event on start button
 function startFunc(){
     if(interval !== null){
         clearInterval(interval);
     }
     interval = setInterval(updateTimer, 100);
+    imgGif.classList.remove("gifimage");
+    const mediaQuery = window.matchMedia('(max-width:483px)')
+    if (mediaQuery.matches) {
+       imgGif.style.marginTop = "0px";
+    }
+    else{
+        imgGif.style.marginTop = "-50px";
+        imgGif.style.zIndex = "-999";
+    }
 }
 
+// stop function on click event on stop button
 function stopFunc(){
     clearInterval(interval);
+    imgGif.classList.add("gifimage");
 }
 
+// reset function on click event on reset button
 function resetFunc(){
     timerDisplay.innerHTML = "00 : 00 : 00 : 00";
     [milliseconds, seconds, minute, hour]=[0,0,0,0];

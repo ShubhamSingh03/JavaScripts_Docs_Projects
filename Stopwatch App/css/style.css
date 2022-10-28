@@ -3,27 +3,27 @@
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
-  }
+}
   
-  /* Track */
-  ::-webkit-scrollbar-track {
+/* Track */
+::-webkit-scrollbar-track {
     background: #fff;
-  }
+}
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #312201;
-  }
+}
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #312201;
-  }
+}
 
 body{
     background: #8d8d8d;
     font-family: 'Roboto Slab', serif;
-    background-image: url("/image/bg-image.jpg"); /* The image used */
+    background-image: url("../image/bg-image.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -32,22 +32,26 @@ body{
 }
 
 section{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: center; 
 }
 
 #content{
-    width: 600px;
-    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 600px;
+    height: 600px;
     align-items: center;
     border-radius: 20px;
-    margin-top: -4%;
+    margin-top: -5.3%;
+}
+
+.gifimage{
+    display: none;
 }
 
 #input{
@@ -63,10 +67,10 @@ section{
 }
 
 button{
-    border-radius: 20px;
-    border: 0px;
     width: 100px;
     height: 40px;
+    border-radius: 20px;
+    border: 0px;
     cursor: pointer;
     font-weight: 700;
 }
@@ -114,6 +118,9 @@ h2{
 }
 
 @media screen and (max-width:483px) {
+    body{
+        height: 800px;
+    }
     h1{
         width: fit-content;
     }
