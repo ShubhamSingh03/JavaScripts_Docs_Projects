@@ -11,15 +11,15 @@
 
 ## Description
 
-A [StopWatch]() app is a digital watch with buttons which you can press at the beginning and end of an event, so that you can measure exactly how long it takes. Built from scratch with HTML, CSS and JavaScript and learnt more about functions in Js. Responsive for mobile screens also.
+A [StopWatch](https://stopwatch-fsjs.netlify.app/) app is a digital watch with buttons which you can press at the beginning and end of an event, so that you can measure exactly how long it takes. Built from scratch with HTML, CSS and JavaScript and learnt more about functions in Js. Responsive for mobile screens also.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://stopwatch-fsjs.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/urng25FRyss)
 
 <hr>
 
