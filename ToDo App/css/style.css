@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/pexels-content-pixie-2736499.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top: 15%;
+    color: #03203C;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+	background: white;
+	border-radius: 10px;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input{
+    width: 75%;
+    height: 45px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 700;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #8D3DAF;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    background-color: #8D3DAF;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.task{
+    background-color: #c5e1e6;
+    height: 50px;
+	margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+	border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+
+.task span{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.task button{
+    background-color: #5A20CB;
+    color: #ffffff;
+    height: 100%;
+    width: 87px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+footer h3 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* MEDIA QUERIES */
+
+@media  screen and (max-width: 460px) {
+    .container{
+        width: 30%;
+        min-width: 370px;
+    }
+}
+
+@media  screen and (max-width: 380px) {
+    .container{
+        width: 30%;
+        min-width: 350px;
+    }
+}
