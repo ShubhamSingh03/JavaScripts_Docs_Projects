@@ -11,15 +11,15 @@
 
 ## Description
 
-A [ToDo App]() is generally used to maintain our day-to-day tasks or list everything that we have to do, It's a list of tasks we need to complete or things that we want to do. It is helpful in planning our daily schedules. Built from scratch with HTML, CSS and JavaScript. Responsive for mobile screens also.
+A [ToDo App](https://todo-fsjs.netlify.app/) is generally used to maintain our day-to-day tasks or list everything that we have to do, It's a list of tasks we need to complete or things that we want to do. It is helpful in planning our daily schedules. Built from scratch with HTML, CSS and JavaScript. Responsive for mobile screens also.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://todo-fsjs.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/40EAsAxpj30)
 
 <hr>
 
