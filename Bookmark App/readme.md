@@ -13,15 +13,15 @@
 
 ## Description
 
-A [Bookmark App]() is app which helps us to store different website links using local storage. There is a section where we find all the saved bookmarks. Built from scratch with HTML, CSS and JavaScript. Learnt about using localStorage and adding array items to it using parse & stringfy method. Responsive for mobile screens also.
+A [Bookmark App](https://bookmark-js.netlify.app/) is app which helps us to store different website links using local storage. There is a section where we find all the saved bookmarks. Built from scratch with HTML, CSS and JavaScript. Learnt about using localStorage and adding array items to it using parse & stringfy method. Responsive for mobile screens also.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://bookmark-js.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/wPhCpAZ0Hl8)
 
 <hr>
 
