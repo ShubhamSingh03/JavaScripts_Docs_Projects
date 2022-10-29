@@ -11,15 +11,15 @@
 
 ## Description
 
-A [Palindrome Checker Game]() is app which checks palindrome for a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, such as the words madam or racecar. Built from scratch with HTML, CSS and JavaScript. Responsive for mobile screens also.
+A [Palindrome Checker Game](https://palindrome-fsjs.netlify.app/) is app which checks palindrome for a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, such as the words madam or racecar. Built from scratch with HTML, CSS and JavaScript. Responsive for mobile screens also.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://palindrome-fsjs.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/yjqmzEsOdY0)
 
 <hr>
 
