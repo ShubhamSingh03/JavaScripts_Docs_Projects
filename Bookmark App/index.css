@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Domine', serif;
+    min-width: 400px;
+    background-image: url(./images/ned-dorman-SCE14E5dk3U-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content{
+    background: #fff;
+    border-radius: 7px;
+    padding: 20px 25px 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+#content h1{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    color:  #414141;
+    font-size: 3rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+input:focus{
+    background: #cbffcb;
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius:  5px;
+    margin-top: 0.5rem;
+}
+
+button:active{
+    background: white;
+    color: #5f9341;
+    transform: translate(2px, 2px);
+}
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+#delete-btn:hover{
+    background: #5f9341;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 2px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+ul a {
+    color: rgb(66, 65, 65);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+ul a:hover{
+    color: rgb(126, 119, 119);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    font-family: 'Arvo', serif;
+}
+
+footer>h3, footer h3 a{
+    color: #fff;
+}
+
+footer a:hover{
+    color: #5f9341;
+}
