@@ -25,7 +25,7 @@ signUpBtn.addEventListener("click", ()=>{
         }
         if(password.value == repeatPassword.value){
             if (inp_field.password.test(password.value)) {
-                successMessage.innerHTML = "Account Sucessfully Registered";
+                successMessage.innerHTML = "Account Successfully Registered";
                 form.reset();
             } else {
                 alert("Password should be at least 8 characters long");
