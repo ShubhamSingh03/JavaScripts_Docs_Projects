@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.36.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="flex justify-center items-center h-screen bg-[url('./images/w11.jpg')] bg-center bg-no-repeat bg-cover">
+    <!-- Quote Card -->
+    <div class="card w-96 bg-base-100 shadow-xl image-full h-96">
+        <figure><img src="./images/w121.jpg" alt="" id="imagecard" /></figure>
+        <div class="card-body">
+            <h2 class="card-title text-center">Quote of the Day!</h2>
+            <p class="font-bold text-3xl tracking-tight py-8" id="quotetext"></p>
+            <h2 class="card-author font-bold text-end uppercase" id="quoteauthor"></h2>
+            <div class="card-actions justify-center mt-4">
+                <button class="btn btn-info">Get Quote</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <h3 class="fixed bottom-0 right-0">Built by: <a href="https://shubhambhoj.in" target="_blank" class="font-bold"> Shubham Singh</a></h3>
+    </footer>
+
+    <!-- Javascript for fetching APIs-->
+    <script>
+        let quoteText = document.getElementById("quotetext");
+        let quoteAuthor = document.getElementById("quoteauthor");
+        let quoteBtn = document.querySelector(".btn");
+        let imageCard = document.getElementById("imagecard");
+        const imageUrl = "https://picsum.photos/300/300/?blur";
+        const url = "https://api.quotable.io/random?maxLength=50";
+
+        // fetching Quotable API
+        let getQuote = () => {
+        fetch(url)
+            .then((data) => data.json())
+            .then((item) => {
+                quoteText.innerText = item.content;
+                quoteAuthor.innerText = item.author;
+            });
+        };
+
+        window.addEventListener("load", getQuote);
+        quoteBtn.addEventListener("click", ()=>{
+           imageCard.src = imageUrl + (200+random()) + '/' + (300 + random()) +'?random=1';
+           function random(){ return Math.floor(Math.random() * 90)}; 
+           setTimeout(getQuote, 500);
+        });
+    </script>
+</body>
+</html>
