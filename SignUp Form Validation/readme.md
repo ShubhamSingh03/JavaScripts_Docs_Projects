@@ -51,7 +51,7 @@ A [SignUp Form Validation](https://signup-js.netlify.app/) is simple sign up for
 
 ![opimage1](./images/Annotation%202022-10-30%20134556.jpg)
 
-![opimage2](./images/SignUp-Form-Validation%20(1).png)
+![opimage2](./images/SignUp-Form-Validation%20(2).png)
 
 ![](./images/mobile%20(5).png)
 
