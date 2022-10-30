@@ -13,15 +13,15 @@
 
 ## Description
 
-A [SignUp Form Validation]() is simple sign up form with four input fields: username, email, password, confirm password and when we click the sign up without filling anything or incorrect data, the form will show an error message.To validate the password I used RegEx. Built from scratch with HTML, Bootstrap and JavaScript. Responsive for mobile screens also.
+A [SignUp Form Validation](https://signup-js.netlify.app/) is simple sign up form with four input fields: username, email, password, confirm password and when we click the sign up without filling anything or incorrect data, the form will show an error message.To validate the password I used RegEx. Built from scratch with HTML, Bootstrap and JavaScript. Responsive for mobile screens also.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://signup-js.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/19Ql1uow_yo)
 
 <hr>
 
