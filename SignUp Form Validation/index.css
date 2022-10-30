@@ -1,0 +1,9 @@
+/* input placeholder color */
+
+input::-webkit-input-placeholder {
+   color: rgb(138, 138, 138);
+}
+input:focus::-webkit-input-placeholder {
+    color: #999;
+}
+
