@@ -11,7 +11,7 @@
 
 ## Description
 
-A [Random Quote Generator]() is app on each refresh/button clicked gives different quotes. Built from scratch with HTML, Tailwind and JavaScript. Responsive for mobile screens also.
+A [Random Quote Generator](https://quote-js.netlify.app/) is app on each refresh/button clicked gives different quotes. Built from scratch with HTML, Tailwind and JavaScript. Responsive for mobile screens also.
 
 API used:
 - #### [Quotable API](https://github.com/lukePeavey/quotable)
@@ -21,9 +21,9 @@ API used:
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://quote-js.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/I93ioIYoDDU)
 
 <hr>
 
