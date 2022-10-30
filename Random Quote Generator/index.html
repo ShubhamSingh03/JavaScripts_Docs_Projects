@@ -61,8 +61,9 @@
         window.addEventListener("load", getQuote);
         quoteBtn.addEventListener("click", ()=>{
            imageCard.src = imageUrl + (200+random()) + '/' + (300 + random()) +'?random=1';
-           function random(){ return Math.floor(Math.random() * 90)}; 
-           setTimeout(getQuote, 500);
+           function random(){ return Math.floor(Math.random() * 90)};
+           getQuote();
+        //    setTimeout(getQuote, 200);
         });
     </script>
 </body>
