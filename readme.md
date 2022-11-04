@@ -153,6 +153,24 @@ Includes mini projects like bookmark app, signup form validation, todo app, rand
 
 <hr>
 
+## ⭐ Project 08: Word Count App
+
+- ### 📌<a href="https://word-fsjs.netlify.app/" target="_blank">LIVE LINK</a>
+
+- ### 📌<a href="https://youtu.be/d4Ux41GkX7s" target="_blank">YouTube Video Demo</a>
+
+- ### 📌[Source Code](https://github.com/ShubhamSingh03/JavaScripts_Docs_Projects/tree/main/Word%20Count%20App)
+
+
+### Output Image
+
+<br>
+
+![](./screencaptures/Word-Count-App%20(1).png)
+
+
+<hr>
+
 
 ### ⭐ Checkout Portfolio & Other Projects
 
