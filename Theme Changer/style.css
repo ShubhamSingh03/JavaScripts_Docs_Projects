@@ -12,11 +12,31 @@
 
 .theme-dark {
     --primary: #121212;
-    --secondary: #0b0b0b;
+    --secondary: #1b1a1a;
     --heading-text: #fff;
     --button-color: #1c11ff;
     --text-color: #cbecee;
     --font-color: #fff;
+    --pure: #fff;
+}
+
+.theme-sepia {
+    --primary: #fbf1c7;
+    --secondary: #eadfb5;
+    --heading-text: #c47d36;
+    --button-color: #704214;
+    --font-color: #704214;
+    --text-color: #704214;
+    --pure: #fff;
+}
+
+.theme-ocean {
+    --primary: #252c35;
+    --secondary: #20272e;
+    --heading-text: #bdceec;
+    --button-color: #6844d3;
+    --font-color: #fff;
+    --text-color: #cbecee;
     --pure: #fff;
 }
 
@@ -26,28 +46,29 @@
     outline: 0;
     font-family: 'Poppins', sans-serif;
     background: var(--primary);
+    transition: .2s linear;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin-top: 40px;
     margin-left: 80px;
 }
                /* NAVBAR */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     
 }
 
-.navbar-container img{
-    margin-right: 40px;
-    height: 40px;
-
+.navbar-container div h1 {
+    margin-right: 20px;
+    font-size: 30px;
+    color: var(--font-color);
 }
 
-.grow-list li{  
+.grow-list li {  
     list-style-type: none;
     display: inline-block;
     margin-right: 40px;
@@ -55,19 +76,20 @@ nav{
     cursor: pointer;
 }
 
-.grow-list li:first-child{
+.grow-list li:first-child {
     color: var(--font-color);
     font-weight: 600;
     margin-left: 20px;
 }
 
-.grow-list li:hover{
+.grow-list li:hover {
     transform: scale(1.1);
     color: var(--font-color);
     font-weight: 600;
+    transition: none;
 }
 
-.button-group select{
+.button-group select {
     display: inline-block;
     height: 30px;
     width: 180px;
@@ -75,52 +97,56 @@ nav{
     outline: none;
     color: var(--font-color);
     border: none;
-    background: transparent;
-    border-radius: 4px;
+    background: var(--secondary);
+    border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
 }
 
-.button-group{
+.button-group select option:checked {
+    background-color: var(--secondary);
+}
+
+.button-group {
     margin-left: auto;
 }
 
             /* BANNER  */
 
-.banner-container{
+.banner-container {
     display: flex;
     /* margin-top: 50px; */
 }
 
-.banner-container div img{
+.banner-container div img {
     height: 85vh;
     position: absolute;
     right: 0;
     bottom: 0; 
 }
 
-.banner-container div:nth-child(1){
+.banner-container div:nth-child(1) {
     margin-top: 100px;
     max-width: 400px;
 }
 
-.banner-container .heading-text{
+.banner-container .heading-text {
     color: var(--heading-text);
     font-size: 3.4rem;
     line-height: 1.2em;
 }
 
-.banner-container .heading-text span{
+.banner-container .heading-text span {
     color: var(--button-color);
 }
 
-.banner-container .description{
+.banner-container .description {
     font-size: 15px;
     margin-top: 25px;
     color: var(--text-color);
 }
 
-.banner-container .nav-button.btn{
+.banner-container .nav-button.btn {
     background-color: var(--button-color);
     border: none;
     border-radius: 10px;
@@ -130,7 +156,7 @@ nav{
     cursor: pointer;
 }
 
-.banner-container .nav-button.btn:hover{
+.banner-container .nav-button.btn:hover {
     background-color: var(--primary);
     color: var(--font-color);
     box-shadow: 0px 1px 2px 2px var(--font-color);

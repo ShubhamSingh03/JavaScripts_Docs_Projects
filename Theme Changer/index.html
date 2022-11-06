@@ -13,6 +13,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
     <title>Digital Marketing Home Page</title>
   </head>
@@ -21,7 +23,7 @@
       <section aria-label="navbar">
         <nav class="navbar-container">
           <div>
-            <img src="./assets/Logo.png" alt="brand-logo" />
+             <h1>Crush.io</h1>
           </div>
           <div class="grow-list">
             <ul class="list">
@@ -33,13 +35,15 @@
             </ul>
           </div>
           <div class="button-group">
-                <select id="themeSwitcher">
-                    <option value="">Change Theme</option>
-                    <option value="theme-light">Light</option>
-                    <option value="theme-dark">Dark</option>
-                    <option value="theme-ocean">Ocean</option>
-                    <option value="theme-sepia">Sepia</option>
-                </select>
+            <span id="theme-icon">
+            </span>
+            <select id="themeSwitcher">
+              <option value="" disabled>Change Theme</option>
+              <option value="theme-light">Light Theme</option>
+              <option value="theme-dark">Dark Theme</option>
+              <option value="theme-sepia">Sepia Theme</option>
+              <option value="theme-ocean">Ocean Theme</option>
+            </select>
           </div>
         </nav>
       </section>
