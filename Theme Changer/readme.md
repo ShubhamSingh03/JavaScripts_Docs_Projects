@@ -11,15 +11,15 @@
 
 ## Description
 
-A [Theme Changer]() app lets the user to change the theme of the webpage from the given options i.e, Light Theme, Dark Theme, Sepia Theme and Ocean Theme and stores them in localStorage so, that next time user visits the site, his/her preference is already saved. For this project I used one of the [HTML & CSS Project](https://digimarket-page.netlify.app/) I built earlier and added the functionality.
+A [Theme Changer](https://theme-js.netlify.app/) app lets the user to change the theme of the webpage from the given options i.e, Light Theme, Dark Theme, Sepia Theme and Ocean Theme and stores them in localStorage so, that next time user visits the site, his/her preference is already saved. For this project I used one of the [HTML & CSS Project](https://digimarket-page.netlify.app/) I built earlier and added the functionality.
 
 <hr>
 
 
 ### 📌Links for Project
-- ### [LIVE Link]()
+- ### [LIVE Link](https://theme-js.netlify.app/)
 
-- ### [YouTube Video Demo]()
+- ### [YouTube Video Demo](https://youtu.be/s6jXsGGsqnM)
 
 <hr>
 
@@ -46,6 +46,8 @@ A [Theme Changer]() app lets the user to change the theme of the webpage from th
 <br>
 
 ![opimage](./captures/Light%20Theme.png)
+
+<br>
 
 ![opimage1](./captures/Light%20Theme%20(3).png)
 
