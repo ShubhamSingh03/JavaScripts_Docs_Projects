@@ -162,3 +162,55 @@ nav {
     box-shadow: 0px 1px 2px 2px var(--font-color);
 }
 
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 430px) {
+    .container {
+        max-width: auto;
+        margin: 10px;
+    }
+    .navbar-container div h1 {
+        font-size: 25px;
+    }
+    .grow-list li{
+        display: none;
+    }
+    .banner-container div img {
+        height: 35vh;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        /* left: 12%; */
+    }
+    #text-container{
+        position: absolute;
+        top: 32%;
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 840px){
+    .container {
+        max-width: auto;
+        margin: 10px;
+    }
+    .grow-list li{
+        margin-right: 20px;
+    }
+    .banner-container div img {
+        height: 45vh;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+    }
+    #text-container{
+        max-width: max-content;
+        position: absolute;
+        top: 52%;
+        text-align: center;
+    }
+    .banner-container .description {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+}
