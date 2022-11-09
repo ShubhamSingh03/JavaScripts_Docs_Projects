@@ -133,8 +133,27 @@ Includes mini projects like bookmark app, signup form validation, todo app, rand
 
 <hr>
 
+## ⭐ Project 07:  Theme Changer
 
-## ⭐ Project 07: ToDo App
+- ### 📌<a href="https://theme-js.netlify.app/" target="_blank">LIVE LINK</a>
+
+- ### 📌<a href="https://youtu.be/s6jXsGGsqnM" target="_blank">YouTube Video Demo</a>
+
+- ### 📌[Source Code](https://github.com/ShubhamSingh03/JavaScripts_Docs_Projects/tree/main/Theme%20Changer)
+
+
+### Output Image
+
+<br>
+
+![](./screencaptures/Light%20Theme.png)
+
+![](./screencaptures/Light%20Theme%20(3).png)
+
+<hr>
+
+
+## ⭐ Project 08: ToDo App
 
 - ### 📌<a href="https://todo-fsjs.netlify.app/" target="_blank">LIVE LINK</a>
 
@@ -153,7 +172,7 @@ Includes mini projects like bookmark app, signup form validation, todo app, rand
 
 <hr>
 
-## ⭐ Project 08: Word Count App
+## ⭐ Project 09: Word Count App
 
 - ### 📌<a href="https://word-fsjs.netlify.app/" target="_blank">LIVE LINK</a>
 
